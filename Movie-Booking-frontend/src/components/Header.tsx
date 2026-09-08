@@ -24,7 +24,7 @@ const Header = ({ onCartClick, onHomeClick, onMoviesClick }: HeaderProps) => {
       <div className="logo-section">
         <h1 className="header-title" onClick={onHomeClick}>
           <MdCameraRoll className="logo-icon" />
-          CineBook
+          CineBoook
         </h1>
       </div>
 
