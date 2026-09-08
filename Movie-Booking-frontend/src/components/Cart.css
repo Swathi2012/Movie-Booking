@@ -1,0 +1,152 @@
+.cart {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.cart-container {
+  width: 100%;
+  max-width: 700px;
+
+  background: linear-gradient(
+    145deg,
+    #1e1b4b,
+    #0f172a
+  );
+
+  border-radius: 24px;
+
+  padding: 2rem;
+
+  box-shadow:
+    0 20px 60px rgba(124,58,237,0.45);
+
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.cart-title {
+  text-align: center;
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  background: rgba(255,255,255,0.05);
+
+  border-radius: 16px;
+
+  padding: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.cart-label {
+  color: #94a3b8;
+}
+
+.cart-value {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.total-section {
+  text-align: center;
+
+  margin-top: 20px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.total-price {
+  color: #facc15;
+
+  font-size: 2rem;
+
+  font-weight: bold;
+}
+
+/* Empty Cart */
+
+.empty-cart {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.empty-cart-box {
+  width: 100%;
+  max-width: 600px;
+
+  background: linear-gradient(
+    145deg,
+    #1e1b4b,
+    #0f172a
+  );
+
+  border-radius: 24px;
+
+  padding: 3rem;
+
+  text-align: center;
+
+  box-shadow:
+    0 20px 60px rgba(124,58,237,0.45);
+}
+
+.empty-cart-icon {
+  font-size: 5rem;
+
+  color: #facc15;
+
+  margin-bottom: 1rem;
+}
+
+.empty-cart-title {
+  color: white;
+
+  font-size: 2.5rem;
+
+  margin-bottom: 1rem;
+}
+
+.empty-cart-text {
+  color: #cbd5e1;
+
+  font-size: 1.1rem;
+
+  line-height: 1.8;
+}
+.movie-title {
+  color: #facc15;
+
+  font-size: 2rem;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 15px;
+
+  text-shadow:
+    0 0 15px rgba(250, 204, 21, 0.5);
+}
+.booking-cart-item {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  margin-bottom: 20px;
+}
